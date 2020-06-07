@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border-bottom: 4px solid orange;
+  margin-bottom: 70px;
+}
+
+.head-content {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.head-title {
+  align-self: center;
+}
+
+.head-title h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.head-navi {
+  display: flex;
+}
+
+.head-navi li {
+  padding: 0 20px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-left .info {
+  background: rgb(24, 221, 247);
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+.main-left h1 {
+  text-align: center;
+  font-size: 18px;
+  opacity: 1.0;
+}
+
+.main-center {
+  margin-left: auto;
+}
+
